@@ -1,18 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Button from '@mui/material/Button';
-import withRoot from './modules/views/withRoot';
+import SideBar from "./pages/sideBar"
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <withRoot/>
-    </>
-  )
+      <SideBar/>
+   </>
+
+)
 }
 
 export default App
+
+
